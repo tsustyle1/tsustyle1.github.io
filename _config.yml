@@ -121,7 +121,7 @@ author:
       icon: "fas fa-fw fa-flag"
       url: "https://tryhackme.com/p/tsu"
     - label: "Hack the Box"
-      icon: "fas fa-fw fa-flag-o"
+      icon: "fas fa-fw fa-flag"
       url: "https://www.hackthebox.eu/home/users/profile/253143"
 
 # Site Footer
