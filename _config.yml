@@ -117,6 +117,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "TryHackMe"
+      icon: "fab fa-fw fa-tryhackme"
+      url: "https://tryhackme.com/p/tsu"
 
 # Site Footer
 footer:
