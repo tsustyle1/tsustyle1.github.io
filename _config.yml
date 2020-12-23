@@ -118,10 +118,10 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "TryHackMe"
-      icon: "fab fa-fw fa-flag"
+      icon: "fab fa-fw fa-link"
       url: "https://tryhackme.com/p/tsu"
     - label: "Hack the Box"
-      icon: "fab fa-fw fa-flag-0"
+      icon: "fab fa-fw fa-link"
       url: "https://www.hackthebox.eu/home/users/profile/253143"
 
 # Site Footer
