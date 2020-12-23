@@ -1,4 +1,4 @@
 ---
 title: "Writeups"
-permalinl: /writeups/
+permalink: /writeups/
 ---
