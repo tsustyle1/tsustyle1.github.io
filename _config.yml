@@ -98,27 +98,46 @@ author:
   bio              : "Aspiring Red Team"
   location         : "US"
   email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:tsustyle@protonmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://tsustyle.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/tsustyle"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/tsustyle"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-  label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tsustyle"
-  label: "Facebook"
-  icon: "fab fa-fw fa-facebook-square"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/tsustyle"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
-  label: "GitHub"
-    icon: "fab fa-fw fa-github"
-      url: "https://github.com/tsustyle"
-  label: "GitLab"
-    icon: "fab fa-fw fa-gitlab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/tsustyle"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
-  label: "Bitbucket"
-    icon: "fab fa-fw fa-bitbucket"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
       # url:
-  label: "Instagram"
-    icon: "fab fa-fw fa-instagram"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url:
 
 
