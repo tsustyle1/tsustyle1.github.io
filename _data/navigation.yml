@@ -14,3 +14,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+thm:
+  - title: "Peak Hill"
+    url: /peakhill/
