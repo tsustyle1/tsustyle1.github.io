@@ -26,5 +26,8 @@ htb:
     url: /hackthebox/remote/
     
 hacktivitycon2020:
-  - title: "Note Surfer"
-    url: /hacktivitycon2020/notesufer/
+  - title: "Web"
+    #url: /hacktivitycon2020/notesufer/
+    children:
+      -title: "Note Surfer"
+        url: /hacktivitycon2020/notesurfer/
