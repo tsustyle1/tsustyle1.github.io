@@ -4,6 +4,13 @@ permalink: /tryhackme/
 title: "TryHackMe"
 ---
 
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+
 
 <div id="archives">
 {% for category in site.categories %}
@@ -22,3 +29,5 @@ title: "TryHackMe"
  {% endif %}
 {% endfor %}
 </div>
+
+{% include paginator.html %}
