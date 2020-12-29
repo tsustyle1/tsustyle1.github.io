@@ -24,3 +24,7 @@ htb:
     url: /hackthebox/beep/
   - title: "Remote"
     url: /hackthebox/remote/
+    
+hacktivitycon2020-web:
+  - title: "Note Surfer"
+    url: /hacktivitycon2020-web/notesufer/
