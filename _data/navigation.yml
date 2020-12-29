@@ -2,8 +2,12 @@
 main:
   - title: "Home"
     url: /
-  - title: "Writeups"
-    url: /writeups/
+  - title: "TryHackMe"
+    url: /tryhackme/
+  - title: "HackTheBox"
+    url: /hackthebox/
+  - title: "CTF"
+    url: /ctf/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
