@@ -27,7 +27,7 @@ htb:
     
 hacktivitycon2020:
   - title: "Web"
-    #url: /hacktivitycon2020/notesufer/
+    url: /hacktivitycon2020/
     children:
       -title: "Note Surfer"
         url: /hacktivitycon2020/notesurfer/
