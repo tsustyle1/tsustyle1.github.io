@@ -18,3 +18,9 @@ main:
 thm:
   - title: "Peak Hill"
     url: /tryhackme/peakhill/
+    
+htb:
+  - title: "Beep"
+    url: /hackthebox/beep/
+  - title: "Remote"
+    url: /hackthebox/remote/
