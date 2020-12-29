@@ -43,3 +43,7 @@ hacktivitycon2020:
         url: /hacktivitycon2020/templateshack/
       - title: "GI Joe"
         url: /hacktivitycon2020/gijoe/
+  - title: "Stego"
+    children:
+      - title: "Busted"
+        url: /hacktivitycon2020/busted/
