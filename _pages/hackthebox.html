@@ -1,0 +1,33 @@
+---
+layout: archive
+permalink: /hackthebox/
+title: "HackTheBox"
+---
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+
+
+<div id="archives">
+{% for category in site.categories %}
+ {% if category_name == HackTheBox %}
+   <div class="archive-group">
+     {% capture category_name %}{{ category | first }}{% endcapture %}
+     <div id="#{{ category_name | slugize }}"></div>
+     <p></p>
+
+     <a name="{{ category_name | slugize }}"></a>
+     {% for post in site.categories[category_name] %}
+       {% include archive-single.html type=entries_layout %}
+    
+     {% endfor %}
+   </div>
+ {% endif %}
+{% endfor %}
+</div>
+
+{% include paginator.html %}
