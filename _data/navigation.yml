@@ -26,7 +26,7 @@ htb:
     url: /hackthebox/remote/
     
 ctf:
-  -title: "Hacktivitycon 2020"
+  - title: "Hacktivitycon 2020"
     url: /hacktivitycon2020/
 
 hacktivitycon2020:
