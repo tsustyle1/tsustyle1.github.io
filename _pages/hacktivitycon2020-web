@@ -1,0 +1,25 @@
+---
+layout: archive
+permalink: /hacktivitycon2020-web/
+title: "Hacktivitycon2020 - Web"
+sidebar:
+  nav: "hacktivitycon2020"
+---
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+
+
+<div id="archives">
+  <div class="archive-group">
+    {% for post in site.categories.Hacktivitycon2020-web %}
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+  </div> 
+</div>
+
+{% include paginator.html %}
