@@ -35,3 +35,5 @@ hacktivitycon2020:
     children:
       - title: "Note Surfer"
         url: /hacktivitycon2020/notesurfer/
+      - title: "Lightweight Contact Book"
+        url: /hacktivitycon2020/lightweightcontactbook/
