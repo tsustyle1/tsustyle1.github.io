@@ -3,11 +3,12 @@ title: Note Surfer
 date: 2020-12-29
 excerpt: "'Note Surfer' was a challenge in the Web category of Hacktivitycon"
 classes: wide
-categories: Hacktivitycon2020-web
+categories: Hacktivitycon2020
 tags:
   - hacktivitycon
   - CSRF
   - XSS
+  - web
 ---
 
 ![img](/assets/images/ctf/hacktivitycon-web-notesurfer/0.png)
