@@ -85,3 +85,5 @@ csictf2020:
     children:
       - title: "Shaken"
         url: /csictf2020/shaken/
+      - title: "Commitment"
+        url: /csictf2020/commitment/
