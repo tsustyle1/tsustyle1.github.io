@@ -81,4 +81,7 @@ csictf2020:
         url: /csictf2020/pwnintended0x2/
       - title: "Pwn Intended 0x3"
         url: /csictf2020/pwnintended0x3/
-    
+  - title: "OSINT"
+    children:
+      - title: "Shaken"
+        url: /csictf2020/shaken/
