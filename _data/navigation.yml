@@ -73,3 +73,8 @@ csictf2020:
         url: /csictf2020/oreo/
       - title: "Warm Up"
         url: /csictf2020/warmup/
+  - title: "Pwn"
+    children:
+      - title: "Pwn Intended 0x1"
+        url: /csictf2020/pwnintended0x1/
+    
