@@ -1,7 +1,7 @@
 ---
 title: The Confused Deputy
 date: 2020-12-29
-excerpt: "'The Confused Deputy' was a challenge in the Stego category of csictf 2020"
+excerpt: "'The Confused Deputy' was a challenge in the Web category of csictf 2020"
 classes: wide
 categories: csictf2020
 tags:
