@@ -77,4 +77,6 @@ csictf2020:
     children:
       - title: "Pwn Intended 0x1"
         url: /csictf2020/pwnintended0x1/
+      - title: "Pwn Intended 0x2"
+        url: /csictf2020/pwnintended0x2/
     
