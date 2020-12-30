@@ -28,6 +28,8 @@ htb:
 ctf:
   - title: "Hacktivitycon 2020"
     url: /hacktivitycon2020/
+  - title: "csictf 2020"
+    url: /csictf2020/
 
 hacktivitycon2020:
   - title: "Web"
