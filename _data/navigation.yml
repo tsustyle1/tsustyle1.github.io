@@ -61,9 +61,9 @@ hacktivitycon2020:
         url: /hacktivitycon2020/pseudo/
       - title: "Cat Cage"
         url: /hacktivitycon2020/catcage/
-        
- csictf2020:
+         
+csictf2020:
   - title: "Web"
     children:
       - title: "Body Count"
-        url: /csictf2020/bodycount/
+      url: /csictf2020/bodycount/
