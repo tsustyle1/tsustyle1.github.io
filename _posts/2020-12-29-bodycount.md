@@ -1,7 +1,7 @@
 ---
 title: Body Count
 date: 2020-12-29
-excerpt: "'Body Count' was a challenge in the Stego category of csictf 2020"
+excerpt: "'Body Count' was a challenge in the Web category of csictf 2020"
 classes: wide
 categories: csictf2020
 tags:
