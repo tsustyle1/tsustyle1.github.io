@@ -12,10 +12,6 @@ tags:
 ---
 
 
-Pwn intended 0x1
-
-
-
 ![img](/assets/images/ctf/csictf2020-pwn-pwnintended0x1/0.png)
 
 
