@@ -39,6 +39,7 @@ Using python and dmesg, we can send different lengths and check where exactly th
 
 
 ![img](/assets/images/ctf/csictf2020-pwn-pwnintended0x2/3.png)
+
 ![img](/assets/images/ctf/csictf2020-pwn-pwnintended0x2/4.png)
 
 
