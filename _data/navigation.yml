@@ -53,3 +53,7 @@ hacktivitycon2020:
         url: /hacktivitycon2020/coldwar/
       - title: "Spy vs Spy"
         url: /hacktivitycon2020/spyvsspy/
+  - title: "Misc"
+    children:
+      - title: "Pseudo"
+        url: /hacktivitycon2020/pseudo/
