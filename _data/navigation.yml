@@ -67,3 +67,5 @@ csictf2020:
     children:
       - title: "Body Count"
         url: /csictf2020/bodycount/
+      - title: "The Confused Deputy"
+        url: /csictf2020/theconfuseddeputy/
